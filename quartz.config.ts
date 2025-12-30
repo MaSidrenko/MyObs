@@ -29,24 +29,24 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FAF8F8", // фоновый светлый
-          lightgray: "#E5E5E5", // светло-серый для блоков
-          gray: "#B8B8B8", // текст серый
-          darkgray: "#4E4E4E", // текст заголовков
+          light: "#FFF6E5", // светлый фон с тёплым жёлто-оранжевым оттенком
+          lightgray: "#F0E8D7", // светлые блоки/карточки
+          gray: "#7B6F5D", // текст обычный
+          darkgray: "#4E4E4E", // заголовки
           dark: "#2B2B2B", // основной текст
-          secondary: "#D97B36", // оранжевый акцент
-          tertiary: "#C7C7C7", // дополнительные элементы
-          highlight: "rgba(217, 123, 54, 0.15)", // подсветка оранжевого
+          secondary: "#D97B36", // оранжевый акцент для ссылок и кнопок
+          tertiary: "#C7B28F", // дополнительные элементы
+          highlight: "rgba(217, 123, 54, 0.15)", // подсветка блоков
           textHighlight: "#D97B36AA", // подсветка текста
         },
         darkMode: {
-          light: "#161618", // фон темный
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#D4D4D4",
-          dark: "#EBEBEC",
-          secondary: "#D97B36", // оранжевый акцент
-          tertiary: "#4E4E4E",
+          light: "#FFF3E0", // фон для темного режима можно сделать очень светлым, но слегка тёплым
+          lightgray: "#EDE0D4",
+          gray: "#7B6F5D",
+          darkgray: "#4E4E4E",
+          dark: "#2B2B2B",
+          secondary: "#D97B36",
+          tertiary: "#C7B28F",
           highlight: "rgba(217, 123, 54, 0.15)",
           textHighlight: "#D97B36AA",
         },
