@@ -29,25 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFF6E5", // светлый фон с тёплым жёлто-оранжевым оттенком
-          lightgray: "#F0E8D7", // светлые блоки/карточки
-          gray: "#7B6F5D", // текст обычный
-          darkgray: "#4E4E4E", // заголовки
-          dark: "#2B2B2B", // основной текст
+          // можно оставить похожим на светлый вариант, если нужен
+          light: "#2B2B2B", // тёмно-серый фон
+          lightgray: "#3C3225", // блоки/карточки чуть светлее
+          gray: "#B8A187", // текст основной
+          darkgray: "#E0C8A0", // заголовки
+          dark: "#FFF6E5", // основной текст — светлый для контраста
           secondary: "#D97B36", // оранжевый акцент для ссылок и кнопок
           tertiary: "#C7B28F", // дополнительные элементы
-          highlight: "rgba(217, 123, 54, 0.15)", // подсветка блоков
+          highlight: "rgba(217, 123, 54, 0.2)", // подсветка блоков
           textHighlight: "#D97B36AA", // подсветка текста
         },
         darkMode: {
-          light: "#FFF3E0", // фон для темного режима можно сделать очень светлым, но слегка тёплым
-          lightgray: "#EDE0D4",
-          gray: "#7B6F5D",
-          darkgray: "#4E4E4E",
-          dark: "#2B2B2B",
+          light: "#1F1B18", // ещё более тёмный фон для true dark mode
+          lightgray: "#332B23",
+          gray: "#B89C7C",
+          darkgray: "#E0C8A0",
+          dark: "#FFF6E5",
           secondary: "#D97B36",
           tertiary: "#C7B28F",
-          highlight: "rgba(217, 123, 54, 0.15)",
+          highlight: "rgba(217, 123, 54, 0.2)",
           textHighlight: "#D97B36AA",
         },
       },
